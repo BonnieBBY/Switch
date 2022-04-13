@@ -1,0 +1,589 @@
+.carousel-cover-bg {
+	background-color: #e60012;
+	position: absolute;
+	z-index: 30;
+}
+
+.carousel-cover-text {
+	color: white;
+}
+
+
+
+.carousel-cover-btn a:hover {
+	color: red;
+}
+
+.carousel-cover-bg {
+	border-radius: 60px 60px 0 0;
+}
+
+.carousel-cover-img {
+	position: absolute;
+	top: -40%;
+	left: 5%;
+	z-index: 10;
+	width: 100%;
+	pointer-events: none;
+}
+
+.carousel-cover-title2 {
+	position: absolute;
+	right: 13.5%;
+	top: 10%;
+	width: 500px;
+	height: 80%;
+	background: url(//switch-cn.gtgres.com/home/_static/img/5152ffb.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.carousel-cover-box:before {
+	content: "";
+	display: block;
+	padding-bottom: 44.27%;
+}
+
+@media print,
+screen and (max-width: 659px) {
+	.carousel-cover-bg {
+		width: 100%;
+		height: 80px;
+		right: 0;
+		bottom: 0;
+		display: flex;
+		-webkit-box-pack: justify;
+		justify-content: space-between;
+		align-items: center;
+		box-sizing: border-box;
+		border-radius: 20px 20px 0 0;
+	}
+
+	.carousel-cover-title {
+		bottom: 80px;
+		right: 0px;
+		width: 180px;
+		height: 100px;
+		background: url(//switch-cn.gtgres.com/home/_static/img/1fc1af2.png);
+		background-size: 70%;
+		background-position: 50%;
+		background-repeat: no-repeat;
+		position: absolute;
+		pointer-events: none;
+		z-index: 20;
+		display: inline-block;
+	}
+
+	.carousel-cover-box {
+		width: 100%;
+	}
+
+	.carousel-cover-img {
+		margin-top: -8vw;
+		margin-left: 25px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 10;
+		width: 100%;
+		pointer-events: none;
+	}
+
+	.carousel-cover-title2 {
+		width: 44%;
+		right: 5%;
+	}
+
+	.carousel-cover-text {
+		position: absolute;
+		left: 5%;
+		bottom: 18%;
+		font-size: 12px;
+	}
+
+	.carousel-cover-btn {
+		position: absolute;
+		right: 5%;
+		bottom: 16%;
+		font-size: 11px;
+
+	}
+
+	.carousel-cover-btn a {
+		padding: .4rem 0.6rem;
+		font-size: 0.02rem;
+		line-height: 0.9;
+		border-radius: .3rem;
+	}
+}
+
+@media print,
+screen and (max-width: 974px) and (min-width:660px) {
+	.carousel-cover-bg {
+		width: 100%;
+		height: 120px;
+		right: 0;
+		bottom: 0;
+		display: flex;
+		-webkit-box-pack: justify;
+		justify-content: space-between;
+		align-items: center;
+		box-sizing: border-box;
+		border-radius: 20px 20px 0 0;
+	}
+
+	.carousel-cover-title {
+		bottom: 120px;
+		right: 22px;
+		width: 245px;
+		height: 130px;
+		background: url(//switch-cn.gtgres.com/home/_static/img/1fc1af2.png);
+		background-size: 100%;
+		background-position: 50%;
+		background-repeat: no-repeat;
+		position: absolute;
+		pointer-events: none;
+		z-index: 20;
+		display: inline-block;
+	}
+
+	.carousel-cover-box {
+		width: 100%;
+	}
+
+	.carousel-cover-img {
+		margin-top: -8vw;
+		margin-left: 25px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 10;
+		width: 100%;
+		pointer-events: none;
+	}
+
+	.carousel-cover-title2 {
+		width: 40%;
+		right: 5%;
+	}
+
+	.carousel-cover-text {
+		position: absolute;
+		left: 5%;
+		bottom: 20%;
+		font-size: 16px;
+	}
+
+	.carousel-cover-btn {
+		position: absolute;
+		right: 5%;
+		bottom: 15%;
+		font-size: 16px;
+
+	}
+}
+
+@media print,
+screen and (max-width: 1399px) and (min-width:975px) {
+	.carousel-cover-bg {
+		padding: 36px 0 24px;
+		width: 100%;
+		right: 0;
+		bottom: 0;
+		display: flex;
+		-webkit-box-pack: justify;
+		justify-content: space-between;
+		align-items: center;
+		box-sizing: border-box;
+	}
+
+	.carousel-cover-img {
+		position: absolute;
+		top: -40%;
+		left: 3%;
+		z-index: 10;
+		width: 100%;
+		pointer-events: none;
+	}
+
+	.carousel-cover-title {
+		position: absolute;
+		right: 0%;
+		top: -50%;
+		width: 615px;
+		height: 80px;
+		background: url(//switch-cn.gtgres.com/home/_static/img/174e182.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: 50%;
+	}
+
+	.carousel-cover-title {
+		position: absolute;
+		pointer-events: none;
+		z-index: 20;
+		width: 55%;
+		display: inline-block;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.carousel-cover-box {
+		margin-top: -5.07vw;
+		width: 28.12%;
+		margin-left: 3%;
+	}
+
+	.carousel-cover-title2 {
+		position: absolute;
+		right: 11.5%;
+		top: 10%;
+		width: 35%;
+		height: 80%;
+		background: url(//switch-cn.gtgres.com/home/_static/img/5152ffb.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.carousel-cover-text {
+		position: absolute;
+		right: 28.5%;
+		bottom: 30%;
+		font-size: 16px;
+	}
+
+	.carousel-cover-btn {
+		position: absolute;
+		right: 11.5%;
+		bottom: 25%;
+		font-size: 16px;
+
+	}
+}
+.btn-Hoverred:hover {
+	color: #dc3545;
+	border-color: #dc3545;
+	background-color: #fff;
+}
+
+.btn-Hoverred {
+	color: #fff;
+	background-color: #dc3545;
+	border-color: #dc3545;
+}
+
+@media print,
+screen and (min-width: 1400px) {
+	.carousel-cover-bg {
+		width: 100%;
+		right: 0;
+		bottom: 0;
+		padding: 50px 0;
+		display: flex;
+		-webkit-box-pack: justify;
+		justify-content: space-between;
+		align-items: center;
+		box-sizing: border-box;
+	}
+
+	.carousel-cover-title {
+		position: absolute;
+		right: 3%;
+		top: -50%;
+		width: 780px;
+		height: 100%;
+		background: url(//switch-cn.gtgres.com/home/_static/img/174e182.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+
+	.carousel-cover-box {
+		margin-top: -8.07vw;
+		width: 33.12%;
+		margin-left: 3%;
+	}
+
+	.carousel-cover-text {
+		position: absolute;
+		right: 31%;
+		bottom: 30%;
+		font-size: 22px;
+	}
+
+	.carousel-cover-btn {
+		position: absolute;
+		right: 13%;
+		bottom: 28%;
+		font-size: 22px;
+	}
+
+	.carousel-cover-btn a {
+		padding: .5rem 1rem;
+		font-size: 1.25rem;
+		line-height: 1.5;
+		border-radius: .3rem;
+	}
+
+	.carousel-cover-title2 {
+		position: absolute;
+		right: 13.5%;
+		top: 10%;
+		width: 500px;
+		height: 80%;
+		background: url(//switch-cn.gtgres.com/home/_static/img/5152ffb.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+}
+
+@media print,
+screen and (min-width: 1045px) {
+	.gd-letter {
+		font-size: 32px;
+		letter-spacing: 45px;
+		text-indent: 50px;
+		margin-bottom: 8px;
+		color: #3c3c3c;
+	}
+}
+
+@media print,
+screen and (max-width: 1044px) {
+	.gd-letter {
+		font-size: 30px;
+		margin-bottom: 8px;
+		color: #3c3c3c;
+	}
+
+	.gd-letterSize {
+		font-size: 20px;
+	}
+}
+
+@media print,
+screen and (max-width: 659px) {
+	.gd-letter {
+		font-size: 25px;
+		margin-bottom: 8px;
+	}
+
+	.gd-letterSize {
+		font-size: 16px;
+	}
+}
+
+.Handle-box {
+	height: 650px;
+	max-width: 100%;
+}
+
+@media print,
+screen and (min-width: 1330px) {
+	.p-title {
+		font-size: 32px;
+		line-height: 1.2;
+		color: #3c3c33;
+	}
+
+	.smTitle {
+		font-size: 30px;
+		color: #3c3c33;
+	}
+
+	.p-text {
+		font-size: 18px;
+		min-height: 150px;
+	}
+}
+
+@media print,
+screen and (max-width: 1329px) and (min-width:1120px) {
+	.p-title {
+		font-size: 25px;
+		line-height: 1.2;
+		color: #3c3c33;
+	}
+
+	.smTitle {
+		font-size: 26px;
+		color: #3c3c33;
+	}
+
+	.p-text {
+		font-size: 16px;
+		min-height: 150px;
+	}
+}
+
+@media print,
+screen and (max-width:1190px) and (min-width: 769px) {
+	.p-title {
+		font-size: 20px;
+		line-height: 1.2;
+		color: #3c3c33;
+	}
+
+	.smTitle {
+		font-size: 24px;
+		color: #3c3c33;
+	}
+
+	.p-text {
+		font-size: 14px;
+		min-height: 200px;
+	}
+}
+
+@media (min-width: 768px) {
+	.offset-md-1_5 {
+		margin-left: 4%;
+	}
+}
+
+@media (max-width: 768px) {
+	.p-text {
+		font-size: 16px;
+		min-height: 100px;
+	}
+
+	.p-title {
+		font-size: 20px;
+		line-height: 1.2;
+		color: #3c3c33;
+	}
+}
+
+.Handle-left {
+	background-image: url(../img/cb6038c.png);
+	background-position: -525px 0px;
+	background-repeat: no-repeat;
+}
+
+.Handle-center {
+	width: 430px;
+	height: 56px;
+	line-height: 56px;
+	font-size: 24px;
+	background-color: #e60013;
+	margin-left: 20px;
+}
+
+.Handle-right {
+	background-image: url(//switch-cn.gtgres.com/home/_static/img/48e91d2.png);
+	background-position: 20px 0px;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 1470px) {
+	.Handle-left {
+		background-position: -560px 0px;
+	}
+
+	.Handle-center {
+		width: 350px;
+		height: 50px;
+		line-height: 50px;
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 1250px) {
+	.Handle-left {
+		background-position: -650px 0px;
+	}
+
+	.Handle-center {
+		width: 280px;
+		height: 35px;
+		line-height: 35px;
+		font-size: 16px;
+	}
+
+	.Handle-right {
+		background-position: 40px 0px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.Handle-left {
+		background-position: -750px 0px;
+	}
+
+	.Handle-center {
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		font-size: 12px;
+		margin-left: 0px;
+	}
+}
+
+@media (max-width: 700px) {
+	.Handle-left {
+		background-position: -850px 0px;
+	}
+
+	.Handle-center {
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		font-size: 12px;
+		margin-left: 0px;
+	}
+
+	.Handle-center-p {
+		font-size: 10px;
+	}
+
+	.Handle-right {
+		background-position: 40px 0px;
+	}
+
+}
+
+@media (max-width: 780px) {
+	.Handle-box {
+		height: 430px;
+		max-width: 100%;
+	}
+}
+
+.paging-zf {
+	border: 2px solid #b3b3b3;
+	color: #3c3c3c;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: .2em;
+}
+
+.paging-zf:hover {
+	color: #e60012;
+	border: 2px solid #e60012;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+	color: #fff;
+	background-color: #e60012;
+	border: 2px solid #e60012;
+
+}
+
+.nav-pills-h .active {
+	background-color: hsl(0deg 0% 95% / 83%);
+	color: #e60012;
+	border: 1px solid #ddd;
+}
+
+.media-card span {
+	color: #000000;
+	list-style-type: none;
+}
+.media-card:hover span{
+	color: #f81b06;
+}
+.media-card:hover img {
+	opacity: 0.7;
+}

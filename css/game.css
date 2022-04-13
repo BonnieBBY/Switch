@@ -1,0 +1,95 @@
+.hoverbottom .overlay {
+	position: absolute;
+	overflow: hidden;
+	top: auto;
+	bottom: 0;
+	height: 4.75em;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	padding: 1em;
+}
+
+.hoverbottom {
+	position: relative;
+}
+
+.hoverbottom h2 {
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	font-size: 18px;
+	padding: 10px;
+	display: inline-block;
+}
+
+
+.hoverbottom h2 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0, 200%, 0);
+	transform: translate3d(0, 200%, 0);
+	visibility: visible;
+}
+
+.hoverbottom:hover h2 {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+
+}
+
+.hoverbottom:hover .overlay {
+	background-color: #21252987;
+	width: 99.2%;
+}
+@media screen and (max-width:992px) {
+	.hoverbottom:hover .overlay {
+		background-color: #21252987;
+		width: 99%;
+	}
+	.hoverbottom h2 {
+		text-transform: uppercase;
+		color: #fff;
+		text-align: center;
+		position: relative;
+		font-size: 16px;
+		padding: 10px;
+		display: inline-block;
+	}
+}
+@media screen and (max-width:728px) {
+	.hoverbottom:hover .overlay {
+		background-color: #21252987;
+		width: 98.5%;
+	}
+	.hoverbottom h2 {
+		text-transform: uppercase;
+		color: #fff;
+		text-align: center;
+		position: relative;
+		font-size: 14px;
+		padding: 10px;
+		display: inline-block;
+	}
+}
+.showhover{
+	border: none;
+}
+.showhover:hover h5{
+	color: #e60012;
+}
+.showhover:hover img{
+	opacity: 0.8;
+}
+.showhover img {
+display:block;
+position:relative;
+-webkit-transition:all .2s linear;
+transition:all .2s linear;
+
+}
+.showhover:hover img {
+-ms-transform:scale(1.02);
+-webkit-transform:scale(1.02);
+transform:scale(1.02);
+}

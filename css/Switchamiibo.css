@@ -1,0 +1,27 @@
+.amiibo-topbg {
+	background-image: url(//switch-cn.gtgres.com/home/_dynamic/img/659ef55.png);
+	background-size: cover;
+	border-bottom: 1 px solid #e4e4e4;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+@media screen and (min-width:1350px) {
+	h2 {
+		font-size: 36px;
+	}
+}
+
+.btn-Hoverred:hover {
+	color: #dc3545;
+	border-color: #dc3545;
+	background-color: #fff;
+}
+
+.btn-Hoverred {
+	color: #fff;
+	background-color: #dc3545;
+	border-color: #dc3545;
+}

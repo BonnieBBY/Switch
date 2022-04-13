@@ -1,0 +1,105 @@
+.introduce-bg {
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #fc0001;
+}
+
+.img-center-hover {
+	position: absolute;
+	bottom: 20%;
+	left: 38.5%;
+	transform: translate3d(0%, 0%, 0);
+	margin: 0px;
+	width: 25%;
+}
+
+.introduce-img {
+	border-radius: 16px;
+	border: none;
+}
+
+.hovereffect p {
+	text-align: center;
+	font-family: Arial, Verdana, Sans-serif;
+	color: #fff;
+	font-size: 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 0);
+	margin: 0px;
+	width: 100%;
+}
+
+.hover-img1 {
+	position: absolute;
+	bottom: 10%;
+	right: 0%;
+	transform: translate3d(-80%, -20%, 0);
+	margin: 0px;
+	width: 10%;
+}
+
+.hover-img2 {
+	position: absolute;
+	bottom: 18%;
+	left: 5%;
+	transform: translate3d(0%, 0%, 0);
+	margin: 0px;
+	width: 30%;
+}
+.hovergame-img:hover{
+	opacity: 0.8;
+	color: #000000;
+}
+a:hover{
+	color: #fc0001;
+}
+.hovergame-img p {
+	position: absolute;
+	left: 48%;
+	top: 8%;
+	width: 40%;
+	margin: 0px;
+	font-size: 1.1rem;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1360px) {
+	.hovergame-img p {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (min-width: 760px) and (max-width: 999px) {
+	.hovergame-img p {
+		font-size: .69rem;
+	}
+}
+
+@media screen and (max-width: 759px) {
+	.hovergame-img p {
+		font-size: 1rem;
+	}
+}
+
+.btn-red {
+	color: #fff;
+	background-color: #e60012;
+	border-color: #e60012;
+	padding: .5rem 3rem;
+	font-size: 1.8rem;
+	line-height: 1.5;
+	border-radius: .5rem;
+}
+
+.btn-Hoverred:hover {
+	color: #dc3545;
+	border-color: #dc3545;
+	background-color: #fff;
+}
+
+.btn-Hoverred {
+	color: #fff;
+	background-color: #dc3545;
+	border-color: #dc3545;
+}

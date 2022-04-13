@@ -1,0 +1,231 @@
+.nav-item a:hover path {
+		fill: #e60012 !important;
+		transition: fill .15s cubic-bezier(.165, .84, .44, 1);
+		-webkit-transition: fill .15s cubic-bezier(.165, .84, .44, 1)
+	}
+	.nav-item  a:hover span{
+		color: #e60012 !important;
+		-webkit-transition: border-color .15s cubic-bezier(.165, .84, .44, 1), background-color .15s cubic-bezier(.165, .84, .44, 1), color .15s cubic-bezier(.165, .84, .44, 1);
+		transition: border-color .15s cubic-bezier(.165, .84, .44, 1), background-color .15s cubic-bezier(.165, .84, .44, 1), color .15s cubic-bezier(.165, .84, .44, 1)
+	}
+
+
+.newsShow img {
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+.newsShow:hover img {
+-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+	.masterHover {
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		cursor: default;
+	}
+
+	.masterHover .masteroverlay {
+		position: absolute;
+		overflow: hidden;
+		width: 80%;
+		height: 80%;
+		left: 10%;
+		top: 10%;
+		border-bottom: 1px solid #FFF;
+		border-top: 1px solid #FFF;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: scale(0, 1);
+		-ms-transform: scale(0, 1);
+		transform: scale(0, 1);
+	}
+
+	.masterHover:hover .masteroverlay {
+		opacity: 1;
+		filter: alpha(opacity=100);
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+
+	.masterHover img {
+		-webkit-transition: all 0.35s;
+		transition: all 0.35s;
+	}
+
+	.masterHover:hover img {
+		filter: brightness(0.7);
+		-webkit-filter: brightness(0.7);
+	}
+
+
+	.masterHover p {
+		color: #ffffff;
+		padding: 3em 0;
+		opacity: 0;
+		filter: alpha(opacity=0);
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0);
+	}
+
+
+	.masterHover:hover p {
+		opacity: 1;
+		filter: alpha(opacity=100);
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+	.navbar-nav .col-2{
+	padding-right: 0px;
+    padding-left: 0px;
+	}
+	
+	.gameHover img {
+	  -webkit-transform: scale(1.0);
+	  -ms-transform: scale(1.0);
+	  transform: scale(1.0);
+	  -webkit-transition: all 0.4s ease-in-out;
+	  transition: all 0.4s ease-in-out;
+	}
+	
+	.gameHover:hover img {
+	  -webkit-transform: scale(0.9);
+	  -ms-transform: scale(0.9);
+	  transform: scale(0.9);
+	  border:3px solid #fa0000;
+	}
+	.gameHover:hover p{
+		color: red;
+	}
+@media (min-width: 992px){
+	.gameHover img{
+		 width: 70%!important;
+	}
+}
+
+@media print,
+screen and (min-width: 760px) {
+	.topic {
+		padding: 32px 0;
+	}
+}
+
+@media screen and (max-width:759px) {
+	.topic {
+		padding: 21px
+	}
+}
+
+.topic {
+	position: relative;
+	background-color: #e60012;
+}
+
+.topic-inner {
+	position: relative
+}
+
+@media print,
+screen and (min-width:760px) {
+	.topic-inner {
+		padding-right: 40px;
+		padding-left: 40px
+	}
+}
+
+@media print,
+screen and (min-width:980px) {
+	.topic-inner {
+		max-width: 1200px;
+		height: 26px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		margin: 0 auto
+	}
+}
+
+@media screen and (max-width:759px) {
+	.topic-inner {
+		padding-right: 14px;
+		padding-left: 14px
+	}
+}
+
+.topic-to-top {
+	position: absolute;
+	background-image: linear-gradient(180deg, #fff, #fff 1px, transparent 0, transparent 3px);
+	background-repeat: repeat-y;
+	background-position: 0 0;
+	background-size: 1px 4px;
+	top: 0;
+	bottom: 0;
+	margin: auto
+}
+
+@media print,
+screen and (min-width:980px) {
+	.topic-to-top {
+		right: 40px;
+		width: 75px;
+		height: 49px;
+		margin-right: -26px
+	}
+}
+
+@media screen and (min-width:760px) and (max-width:979px) {
+	.topic-to-top {
+		right: 40px;
+		width: 54px;
+		height: 42px;
+		margin-right: -12px
+	}
+}
+
+@media screen and (max-width:759px) {
+	.topic-to-top {
+		right: 0;
+		width: 52px;
+		height: 37px
+	}
+}
+
+.to-top-btn[data-v-3087922f] {
+	display: block;
+	height: 100%;
+	cursor: pointer;
+	color: #fff
+}
+
+html[data-device=desktop] .to-top-btn {
+	-webkit-transition: opacity .15s linear;
+	transition: opacity .15s linear
+}
+
+html[data-device=desktop] .to-top-btn:hover {
+	opacity: .7
+}
+
+.to-top-btn svg {
+	fill: #fff;
+	display: block;
+	height: 100%;
+	margin: 0 auto
+}
+
+@media print,
+screen and (min-width:980px) {
+	.to-top-btn svg {
+		width: 35px
+	}
+}
+
+@media screen and (max-width:979px) {
+	.to-top-btn svg {
+		width: 26px
+	}
+}

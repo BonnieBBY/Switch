@@ -1,0 +1,21 @@
+.showhover{
+	border: none;
+}
+.showhover:hover h5{
+	color: #e60012;
+}
+.showhover:hover img{
+	opacity: 0.8;
+}
+.showhover img {
+display:block;
+position:relative;
+-webkit-transition:all .2s linear;
+transition:all .2s linear;
+
+}
+.showhover:hover img {
+-ms-transform:scale(1.02);
+-webkit-transform:scale(1.02);
+transform:scale(1.02);
+}
